@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+}
+/* reset */
+html, body, div, article, p, h3, h4 {
+
+    margin: 0;
+    padding: 0;
+}
+img{
+	height: 300px;
+	width: 300px;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.cover {
+    width: 300px;
+    float: left;
+    margin: 1em;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cover article {
+    position: relative;
+    margin-top: -100px;
+    background-color: rgba(255,255,255,0.5);
+    height: 400px;
+    font-size: .9em;
+    padding: 1em;
+    margin-top: 0;
+    transition: margin-top .8s;
+}
+.cover:hover article {
+    margin-top: -311px;
+    cursor: pointer;
+}
+.cover article h3 .cover article h4, .cover article p {
+    padding: .3em;
+}
+
+.small{
+	height: 32px;
+	width: 89px;
+}
+
+#validatie{
+	padding-bottom: 0px;
+
+}
+
